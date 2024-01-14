@@ -32,5 +32,6 @@ acc_dt = accuracy_score(y_test, y_pred_dt)
 acc_svc = accuracy_score(y_test, y_pred_svc)
 
 #printing the accuracy
+print("Calculating accuracy....")
 print(f"Accuracy of Decision Tree Classifier: {round(acc_dt,4)*100} %")
 print(f"Accuracy of Support Vector Machine: {round(acc_svc,4)*100} %")
